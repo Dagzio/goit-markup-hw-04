@@ -339,7 +339,6 @@ img {
   align-items: center;
   width: 44px;
   height: 44px;
-  background-color: transparent;
   border-radius: 50%;
 }
 
@@ -476,8 +475,61 @@ img {
 /* Підвал */
 
 footer {
-  padding: 60px 0;
   background-color: #2f303a;
+}
+
+.footer-container {
+  display: flex;
+}
+.footer-contacts {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-right: 70px;
+}
+
+.join-us {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin-top: 72px;
+  margin-bottom: 100px;
+}
+
+.footer-social-link,
+.footer-social-list,
+.footer-links-item {
+  display: flex;
+}
+
+.footer-links-title {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.footer-social-link {
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-icon {
+  fill: var(--white-color);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--third-color);
+}
+
+.footer-links-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .foot-logo {
