@@ -127,7 +127,7 @@ img {
 .nav-icon {
   align-self: center;
   margin-right: 10px;
-  fill: var(--second-color);
+  fill: currentColor;
 }
 
 .nav-contact:hover .nav-icon,
@@ -208,12 +208,13 @@ img {
   width: 270px;
   height: 120px;
   flex-basis: calc((100% - 90px) / 4);
+  color: var(--main-color);
   background-color: #f5f4fa;
   border-radius: 4px;
 }
 
 .icon {
-  fill: var(--main-color);
+  fill: currentColor;
 }
 
 .features-list {
@@ -340,6 +341,7 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  color: #afb1b8;
 }
 
 .social-link:hover,
@@ -353,7 +355,7 @@ img {
 }
 
 .social-icon {
-  fill: #afb1b8;
+  fill: currentColor;
 }
 
 /* Постійні клієнти */
@@ -383,9 +385,10 @@ img {
   border-radius: 4px;
   justify-content: center;
   align-items: center;
+  color: #afb1b8;
 }
 .clients-icon-link {
-  fill: #afb1b8;
+  fill: currentColor;
 }
 
 .clients-icon-link:hover,
@@ -475,6 +478,7 @@ img {
 /* Підвал */
 
 footer {
+  padding: 60px 0;
   background-color: #2f303a;
 }
 
@@ -482,8 +486,6 @@ footer {
   display: flex;
 }
 .footer-contacts {
-  margin-top: 60px;
-  margin-bottom: 60px;
   margin-right: 70px;
 }
 
@@ -491,8 +493,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: baseline;
-  margin-top: 72px;
-  margin-bottom: 100px;
+  margin-top: 12px;
 }
 
 .footer-social-link,
@@ -516,11 +517,12 @@ footer {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  color: var(--white-color);
   background-color: rgba(255, 255, 255, 0.1);
 }
 
 .footer-social-icon {
-  fill: var(--white-color);
+  fill: currentColor;
 }
 
 .footer-social-link:hover,
